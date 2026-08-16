@@ -24,3 +24,10 @@ El desarrollo del proyecto se estructuró bajo el marco de trabajo de Ciencia de
 ## 💼 Impacto de Negocio (Enfoque Project Management)
 * **Gestión del Alcance:** Clasificación multiclase efectiva para la toma de decisiones editoriales en tiempo real.
 * **Optimización de Recursos:** La selección de variables críticas reduce el costo de infraestructura en la nube al evitar procesar datos redundantes.
+
+* ## 🏆 Modelo Seleccionado y Resultados
+Tras evaluar y optimizar múltiples algoritmos, el modelo basado en **Random Forest** obtuvo el mejor rendimiento global (mayor AUC bajo la curva ROC). 
+
+* **Capacidad de Discriminación:** El modelo demostró una alta robustez para diferenciar correctamente entre artículos de popularidad Menor, Medio y Superior, minimizando los falsos positivos en la categoría "Superior" (viral).
+* **Variables Clave:** Los hiperparámetros optimizados mediante búsqueda sistemática permitieron estabilizar el modelo contra el sobreajuste (overfitting), asegurando una excelente capacidad de generalización con datos nuevos.
+
